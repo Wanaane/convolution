@@ -1,0 +1,8 @@
+- Input: file "ship_n.txt", kích thước  input: (32, 32, 3) đã chuyển đổi thành (3x32x32) -> (channel_inputs, row, col)
+- W: file "W_0.txt", kích thước W_0: (3, 3, 3, 32) đã chuyển đổi thành (32x3x3x3) -> (numofkernel, channel_inputs, row, col)
+- Bias: file "bias_0.txt", kích thước (1, 32)
+
+* Yêu cầu:
+- Viết Conv2d layer
+- Output có kích thước: (32x32x32)
+
